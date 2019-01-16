@@ -23,9 +23,9 @@ public class OpisPrzedmiotu {
         System.out.printf("%d. Nazwa        %s\n" ,++kolejnosc,nazwa);
         System.out.printf("%d. Typ          %s\n" ,++kolejnosc,typ);
         System.out.printf("%d. Druk Kolor   %s\n" ,++kolejnosc,prinColor);
-        System.out.printf("%d. Wysokosc     %s\n" ,++kolejnosc,dimensionsHeigh);
-        System.out.printf("%d. Szerokosc    %s\n" ,++kolejnosc,dimensionsWidth);
-        System.out.printf("%d. Glebokosc    %s\n\n" ,++kolejnosc,dimensionsDepth);
+        System.out.printf("%d. Wysokosc     %.0f cm\n" ,++kolejnosc,dimensionsHeigh);
+        System.out.printf("%d. Szerokosc    %.0f cm\n" ,++kolejnosc,dimensionsWidth);
+        System.out.printf("%d. Glebokosc    %.0f cm\n\n" ,++kolejnosc,dimensionsDepth);
 
     }
 
